@@ -1,0 +1,12 @@
+{
+  "dataVariationFileInfo": [
+    {
+      "filePath": ".variations\\UiBank_Queue.json",
+      "dataVariationType": "TestDataQueue"
+    },
+    {
+      "filePath": ".variations\\UiBank.json",
+      "dataVariationType": "Entity"
+    }
+  ]
+}

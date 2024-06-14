@@ -1,0 +1,104 @@
+{
+  "name": "UiBank_TestAutomation",
+  "projectId": "a94b80df-4462-4bbe-be4d-0313e51e132d",
+  "description": "New Test Automation Framework",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.DataService.Activities": "[23.10.0]",
+    "UiPath.Excel.Activities": "[2.22.3]",
+    "UiPath.Jira.Activities": "[2.4.3]",
+    "UiPath.Jira.IntegrationService.Activities": "[6.1.0]",
+    "UiPath.Mail.Activities": "[1.23.0]",
+    "UiPath.System.Activities": "[23.10.3]",
+    "UiPath.Testing.Activities": "[23.10.0]",
+    "UiPath.UIAutomation.Activities": "[23.10.7]",
+    "UiPath.WebAPI.Activities": "[1.20.1]"
+  },
+  "webServices": [],
+  "entitiesStores": [
+    {
+      "serviceDocument": ".entities/EntitiesStore.json",
+      "tenantName": "DefaultTenant",
+      "namespace": "Olympus_TestAutomationFramework",
+      "uniqueReference": "uEIL1gNf3cHtYKUvPeHylEWWsee1r+1z9IiPaaGt//M="
+    }
+  ],
+  "schemaVersion": "4.0",
+  "studioVersion": "23.10.3.0",
+  "projectVersion": "1.0.1",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": false,
+    "isAttended": false,
+    "requiresUserInteraction": false,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "templateType": "ExecutionTemplate",
+        "fileName": ".templates\\TestFramework_WithLogin.xaml"
+      },
+      {
+        "templateType": "ExecutionTemplate",
+        "fileName": ".templates\\TestFramework_WithoutLogin.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "6462805a-c43b-4eed-82cd-ef6f233e9a83",
+        "executionTemplatePath": ".templates\\TestFramework_WithLogin.xaml",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCase\\UI_Testing_TestCase - File.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "43018b42-e6b5-4dae-861c-5a52c48256e7",
+        "dataVariationFilePath": ".variations\\UiBank_Queue.json",
+        "executionTemplatePath": ".templates\\TestFramework_WithLogin.xaml",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCase\\UI_Testing_TestCase - Queue.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "c666717e-15f1-48f7-809f-0f1d0d3c68dc",
+        "dataVariationFilePath": ".variations\\UiBank.json",
+        "executionTemplatePath": ".templates\\TestFramework_WithLogin.xaml",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCase\\UI_Testing_TestCase - Data Services.xaml"
+      }
+    ],
+    "modernBehavior": true,
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}

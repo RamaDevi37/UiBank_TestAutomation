@@ -1,0 +1,9 @@
+{
+  "issueKeyTestcaseValues": {},
+  "testManagerBasePath": "https://cloud.uipath.com/cognizantcigna/DefaultTenant/testmanager_",
+  "defaultProject": {
+    "id": "ff047df4-8735-0000-fc5d-0b46bf568898",
+    "name": "UI_BANK",
+    "key": "UIB"
+  }
+}
